@@ -8,12 +8,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F856CAEC-B3F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A1272902-1CD0-4507-9714-CB3AE96E78FD}"
 	ProjectSection(SolutionItems) = preProject
-		build\Templates.targets = build\Templates.targets
+		build\common.props = build\common.props
+		build\CopyZipFiles.targets = build\CopyZipFiles.targets
+		build\version.props = build\version.props
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.CMS.GroupingHeader", "src\Advanced.CMS.GroupingHeader\Advanced.CMS.GroupingHeader.csproj", "{20118F27-A969-4CB4-8284-4DAE94A29B00}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlloyTemplates", "src\AlloyTemplates\AlloyTemplates.csproj", "{DE53D65B-F7A3-4905-8073-569227543B56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,17 +25,12 @@ Global
 		{20118F27-A969-4CB4-8284-4DAE94A29B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20118F27-A969-4CB4-8284-4DAE94A29B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20118F27-A969-4CB4-8284-4DAE94A29B00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE53D65B-F7A3-4905-8073-569227543B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE53D65B-F7A3-4905-8073-569227543B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE53D65B-F7A3-4905-8073-569227543B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE53D65B-F7A3-4905-8073-569227543B56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{20118F27-A969-4CB4-8284-4DAE94A29B00} = {F856CAEC-B3F9-4320-B39D-E8F2EB8F6111}
-		{DE53D65B-F7A3-4905-8073-569227543B56} = {F856CAEC-B3F9-4320-B39D-E8F2EB8F6111}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {741AB471-1EF4-417B-9A9B-C1A38760AC80}
