@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Advanced.CMS.GroupingHeader</id>
+    <version>1.0.0</version>
+    <title>Advanced.CMS.GroupingHeader</title>
+    <authors>github.com/advanced-cms</authors>
+    <owners>github.com/advanced-cms</owners>
+    <license type="expression">MIT</license>
+    <iconUrl>https://raw.githubusercontent.com/advanced-cms/grouping-header/master/assets/logo.png</iconUrl>
+    <projectUrl>https://github.com/advanced-cms/grouping-header</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allow to group properties using headers</description>
+    <copyright>Copyright 2021</copyright>
+    <tags>EPiServer Edit-mode group properties property</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.UI.Core" version="[11.1.0, 12.0.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Readme.txt" target="" />
+    <file src="bin\Release\Advanced.CMS.GroupingHeader.dll" target="lib\net45\" />
+    <file src="web.config.transform" target="Content" />
+    <file src="advanced-cms-grouping-header/advanced-cms-grouping-header.zip" target="Content\modules\_protected\advanced-cms-grouping-header" />
+  </files>
+</package>
