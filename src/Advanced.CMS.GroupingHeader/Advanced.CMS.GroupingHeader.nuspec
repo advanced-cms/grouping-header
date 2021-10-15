@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Advanced.CMS.GroupingHeader</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Advanced.CMS.GroupingHeader</title>
     <authors>github.com/advanced-cms</authors>
     <owners>github.com/advanced-cms</owners>
@@ -14,7 +14,8 @@
     <copyright>Copyright 2021</copyright>
     <tags>EPiServer Edit-mode group properties property</tags>
     <dependencies>
-      <dependency id="EPiServer.CMS.UI.Core" version="[11.1.0, 12.0.0)" />
+      <dependency id="EPiServer.CMS.AspNet" version="[11.20.8, 12.0.0)" />
+      <dependency id="EPiServer.CMS.UI.Core" version="[11.36.3, 12.0.0)" />
     </dependencies>
   </metadata>
   <files>
