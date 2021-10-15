@@ -1,3 +1,9 @@
+After installation please add the following to your Startup.cs:
+
+using Advanced.CMS.GroupingHeader;
+services.AddGroupingHeader();
+
+
 To group properties use GroupingHeader attribute. Attribute should be placed on the property.
 
 [GroupingHeader("Sample group")]

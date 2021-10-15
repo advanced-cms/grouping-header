@@ -19,7 +19,7 @@
       </group>
     </dependencies>
     <contentFiles>
-      <files include="any/any/modules/_protected/advanced-cms-grouping-header/advanced-cms-grouping-header.zip" buildAction="None" copyToOutput="false"  />
+      <files include="any/any/modules/_protected/advanced-cms-grouping-header/advanced-cms-grouping-header.zip" buildAction="None" copyToOutput="true"  />
     </contentFiles>
   </metadata>
   <files>
