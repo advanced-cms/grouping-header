@@ -19,7 +19,7 @@
       </group>
     </dependencies>
     <contentFiles>
-      <files include="any/any/modules/_protected/advanced-cms-grouping-header/advanced-cms-grouping-header.zip" buildAction="None" copyToOutput="true"  />
+      <files include="any/any/modules/_protected/advanced-cms-grouping-header/advanced-cms-grouping-header.zip" buildAction="None" copyToOutput="false"  />
     </contentFiles>
   </metadata>
   <files>
@@ -27,6 +27,6 @@
     <file src="bin\Release\Advanced.CMS.GroupingHeader.dll" target="lib\net5.0\" />
     <file src="bin\Release\Advanced.CMS.GroupingHeader.pdb" target="lib\net5.0\" />
     <file src="advanced-cms-grouping-header/advanced-cms-grouping-header.zip" target="contentFiles\any\any\modules\_protected\advanced-cms-grouping-header" />
-    <file src="..\..\build\CopyZipFiles.targets" target="build\net5.0\EPiServer.Cms.UI.targets" />
+    <file src="..\..\build\CopyZipFiles.targets" target="build\net5.0\Advanced.CMS.GroupingHeader.targets" />
   </files>
 </package>
