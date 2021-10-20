@@ -5,6 +5,10 @@ It will display header above the first property from the group.
 Headers are defined using GroupingHeaderAttribute which has Title parameter. 
 The attribute should be used on the first property from the group. 
 
+Download from: https://nuget.optimizely.com/package/?id=Advanced.CMS.GroupingHeader
+
+The add-on is available both for .net framework (v1) and .net core (v2).
+
 ## Basic usage
 
 ```c#
