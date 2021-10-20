@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A1272902
 		build\common.props = build\common.props
 		build\CopyZipFiles.targets = build\CopyZipFiles.targets
 		build\version.props = build\version.props
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.CMS.GroupingHeader", "src\Advanced.CMS.GroupingHeader\Advanced.CMS.GroupingHeader.csproj", "{20118F27-A969-4CB4-8284-4DAE94A29B00}"
