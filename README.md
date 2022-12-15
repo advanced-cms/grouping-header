@@ -1,5 +1,7 @@
 # Grouping Header
 
+[![Build .net core](https://github.com/advanced-cms/grouping-header/actions/workflows/grouping-header-dotnet-core.yml/badge.svg)](https://github.com/advanced-cms/grouping-header/actions/workflows/grouping-header-dotnet-core.yml)
+
 This add-on is to allow to group several properties together.
 It will display header above the first property from the group.
 Headers are defined using GroupingHeaderAttribute which has Title parameter. 
