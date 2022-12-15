@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Advanced.CMS.GroupingHeader</id>
-    <version>2.0.0</version>
+    <version>$PackageVersion$</version>
     <title>Advanced.CMS.GroupingHeader</title>
     <authors>github.com/advanced-cms</authors>
     <owners>github.com/advanced-cms</owners>
@@ -11,22 +11,23 @@
     <projectUrl>https://github.com/advanced-cms/grouping-header</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Allow to group properties using headers</description>
-    <copyright>Copyright 2021</copyright>
+    <copyright>Copyright 2023</copyright>
     <tags>EPiServer Edit-mode group properties property</tags>
     <dependencies>
-      <group targetFramework="net5.0">
-        <dependency id="EPiServer.CMS.UI.Core" version="[12.0.2, 13.0.0)" />
+      <group targetFramework="net6.0">
+        <dependency id="EPiServer.CMS.UI.Core" version="[$CmsUIVersion$, $CmsUINextMajorVersion$)" />
       </group>
     </dependencies>
     <contentFiles>
       <files include="any/any/modules/_protected/advanced-cms-grouping-header/advanced-cms-grouping-header.zip" buildAction="None" copyToOutput="true"  />
     </contentFiles>
   </metadata>
+
   <files>
-    <file src="Readme.txt" target="" />
-    <file src="bin\Release\Advanced.CMS.GroupingHeader.dll" target="lib\net5.0\" />
-    <file src="bin\Release\Advanced.CMS.GroupingHeader.pdb" target="lib\net5.0\" />
-    <file src="advanced-cms-grouping-header/advanced-cms-grouping-header.zip" target="contentFiles\any\any\modules\_protected\advanced-cms-grouping-header" />
-    <file src="..\..\build\CopyZipFiles.targets" target="build\net5.0\Advanced.CMS.GroupingHeader.targets" />
+    <file src="assets\logo.png" target="" />
+    <file src="src\Advanced.CMS.GroupingHeader\Readme.txt" target="" />
+    <file src="src\Advanced.CMS.GroupingHeader\bin\$configuration$\Advanced.CMS.GroupingHeader.dll" target="lib\net6.0\" />
+    <file src="out\advanced-cms-grouping-header\advanced-cms-grouping-header.zip" target="contentFiles\any\any\modules\_protected\advanced-cms-grouping-header\" />
+    <file src="build\CopyZipFiles.targets" target="build\net6.0\Advanced.CMS.GroupingHeader.targets" />
   </files>
 </package>

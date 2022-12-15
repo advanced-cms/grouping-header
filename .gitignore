@@ -22,5 +22,8 @@ License.config
 [Pp]ackages/
 
 .idea/
+.vscode
 
-advanced-cms-grouping-header.zip
+*.nupkg
+
+out/

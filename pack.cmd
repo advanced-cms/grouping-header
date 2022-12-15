@@ -1,2 +1,10 @@
-msbuild Advanced.CMS.GroupingHeader.sln -p:Configuration=Release
-build\tools\nuget.exe pack src\Advanced.CMS.GroupingHeader\Advanced.CMS.GroupingHeader.nuspec
+@ECHO OFF
+SETLOCAL
+
+SET CONFIGURATION=Debug
+
+IF "%2"=="Release" (SET CONFIGURATION=Release)
+
+powershell ./build/pack.ps1 -configuration %CONFIGURATION%
+
+EXIT /B %errorlevel%

@@ -14,7 +14,7 @@ namespace Advanced.CMS.GroupingHeader
     {
         public void Initialize(InitializationEngine context)
         {
-            context.InitComplete += (sender, args) =>
+            context.InitComplete += (_, _) =>
             {
                 var editorRegistry = ServiceLocator.Current.GetInstance<MetadataHandlerRegistry>();
                 editorRegistry.RegisterMetadataHandler(typeof(ContentData),

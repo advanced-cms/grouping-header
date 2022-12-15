@@ -1,11 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\build\common.props" />
+  <Import Project="..\..\build\nuspec.props" />
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <IsPackable>true</IsPackable>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
     <NuspecFile>Advanced.CMS.GroupingHeader.nuspec</NuspecFile>
   </PropertyGroup>
-  <Import Project="..\..\build\common.props" />
   <ItemGroup>
-    <PackageReference Include="EPiServer.CMS.UI.Core" Version="12.0.2" />
+    <PackageReference Include="EPiServer.CMS.UI.Core" />
   </ItemGroup>
 </Project>
